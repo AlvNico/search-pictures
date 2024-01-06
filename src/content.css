@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    background-color: #eee;
+    justify-content: center; /* centra el contenido*/
+}
+.center{
+    column-count:3; /* usa 3 columnas */
+    width: 1200px;
+}

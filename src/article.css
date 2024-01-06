@@ -1,0 +1,22 @@
+article{
+    display: inline-block; /*bloquea el contenido en un solo bloque de la etiqueta con sus children*/
+    width: 370px;
+    transition: box-shadow 0.2s ease;
+    margin: 40px 10px 0 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+article>img{  /*todas las imagenes primer hijo de article heredan estas properties*/
+    width:inherit;
+    border-radius: 5px 2px 0 0 ;/* arribaizquierda arribaderecha abajoizq abajoder*/
+
+}
+article>p{
+    margin: 10px 15px;
+
+}
+article:hover{
+    box-shadow: 0px 3px 5px rgb(0,0,0,0.5); /* al pasar el cursor causa una sombra*/
+}
